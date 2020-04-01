@@ -90,23 +90,4 @@ public class GamePanel extends JPanel {
         ScoreBord.getInstance().saveOrUpdate();
         connector.commit();
     }
-//    @Override
-//    public void remove(){
-//        System.out.println("kokllm");
-////        this.remove(back);
-//        this.removeAll();
-//        System.out.println("ksclk");
-//        this.remove(back1);
-//        System.out.println("kcsuabsvjkbjk");
-//        this.remove(exit);
-//        System.out.println("a");
-//        this.remove(Tetris.getInstance());
-//        this.remove(Table.getInstance());
-//        this.remove(Status.getInstance());
-//        this.remove(NextPiece.getInstance());
-//        System.out.println("sdf");
-//        this.removeKeyListener(Tetris.getInstance());
-//        System.out.println("sss");
-//        Tv.getInstance().getFrame().remove(this);
-//    }
 }

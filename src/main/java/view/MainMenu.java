@@ -23,13 +23,9 @@ public class MainMenu {
     }
 
     public void start() {
-        System.out.println(41);
         initializePanel();
-        System.out.println(411);
         initializeButtons();
-        System.out.println(412);
         initializeLabel();
-        System.out.println(42);
     }
 
     private void initializePanel() {
