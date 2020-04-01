@@ -1,22 +1,22 @@
-Apr 01, 2020 6:39:48 PM org.hibernate.Version logVersion
+Apr 01, 2020 7:08:32 PM org.hibernate.Version logVersion
 INFO: HHH000412: Hibernate Core {5.1.0.Final}
-Apr 01, 2020 6:39:48 PM org.hibernate.cfg.Environment <clinit>
+Apr 01, 2020 7:08:32 PM org.hibernate.cfg.Environment <clinit>
 INFO: HHH000206: hibernate.properties not found
-Apr 01, 2020 6:39:48 PM org.hibernate.cfg.Environment buildBytecodeProvider
+Apr 01, 2020 7:08:32 PM org.hibernate.cfg.Environment buildBytecodeProvider
 INFO: HHH000021: Bytecode provider name : javassist
-Apr 01, 2020 6:39:48 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+Apr 01, 2020 7:08:32 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
 INFO: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-Apr 01, 2020 6:39:48 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+Apr 01, 2020 7:08:32 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
 WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
-Apr 01, 2020 6:39:48 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Apr 01, 2020 7:08:32 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:./data/test]
-Apr 01, 2020 6:39:48 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Apr 01, 2020 7:08:32 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001001: Connection properties: {}
-Apr 01, 2020 6:39:48 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Apr 01, 2020 7:08:32 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001003: Autocommit mode: false
-Apr 01, 2020 6:39:48 PM org.hibernate.engine.jdbc.connections.internal.PooledConnections <init>
+Apr 01, 2020 7:08:32 PM org.hibernate.engine.jdbc.connections.internal.PooledConnections <init>
 INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
-Apr 01, 2020 6:39:48 PM org.hibernate.dialect.Dialect <init>
+Apr 01, 2020 7:08:33 PM org.hibernate.dialect.Dialect <init>
 INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-Apr 01, 2020 6:39:49 PM org.hibernate.tool.schema.internal.SchemaCreatorImpl applyImportSources
+Apr 01, 2020 7:08:33 PM org.hibernate.tool.schema.internal.SchemaCreatorImpl applyImportSources
 INFO: HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@793138bd'

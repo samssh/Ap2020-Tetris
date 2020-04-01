@@ -26,35 +26,33 @@ public class GameLoop extends Loop {
         Board board = Board.getInstance();
         NextPiece nextPiece = NextPiece.getInstance();
         Player player = Player.getInstance();
-        synchronized (board) {
-            if (board.getPiece() == null) {
-                if (board.canAddPiece(nextPiece.getNext())) {
-                    Piece p = Piece.GetRandom();
-                    board.setPiece(nextPiece.getNext());
-                    nextPiece.setNext(p);
-                    lastShift = System.currentTimeMillis();
-                } else {
-                    ScoreBord scoreBord = ScoreBord.getInstance();
-                    scoreBord.addRecord(new Record(player.getScore(), player.getName()));
-                    Connector connector = Connector.getConnector();
-                    connector.beginTransaction();
-                    scoreBord.saveOrUpdate();
-                    connector.commit();
-                    System.out.println(3);
-//                    Thread.sleep(500);
-                    new Thread(() -> {
-                        removeComponent();
-                        System.out.println(31);
-                        MainMenu.getInstance().start();
-                        System.out.println(4);
-                    }).start();
-                    GameLoop.getInstance().stop();
-                    //lose state
-                }
+//        synchronized (board) {
+        if (board.getPiece() == null) {
+            if (board.canAddPiece(nextPiece.getNext())) {
+                Piece p = Piece.GetRandom();
+                board.setPiece(nextPiece.getNext());
+                nextPiece.setNext(p);
+                lastShift = System.currentTimeMillis();
             } else {
-                long now = System.currentTimeMillis();
-                if (now - lastShift >= 250) {
-
+                ScoreBord scoreBord = ScoreBord.getInstance();
+                scoreBord.addRecord(new Record(player.getScore(), player.getName()));
+                Connector connector = Connector.getConnector();
+                connector.beginTransaction();
+                scoreBord.saveOrUpdate();
+                connector.commit();
+                System.out.println(3);
+                Thread.sleep(500);
+                removeComponent();
+                System.out.println(31);
+                MainMenu.getInstance().start();
+                System.out.println(4);
+                GameLoop.getInstance().stop();
+                //lose state
+            }
+        } else {
+            long now = System.currentTimeMillis();
+            if (now - lastShift >= 250) {
+                synchronized (board) {
                     Piece p = board.getPiece();
                     board.setPiece(null);
                     p.shiftY(1);
@@ -72,6 +70,7 @@ public class GameLoop extends Loop {
                 }
             }
         }
+//        }
     }
 
     @Override
@@ -83,12 +82,12 @@ public class GameLoop extends Loop {
     }
 
     private void removeComponent() {
-
         Tv tv = Tv.getInstance();
         System.out.println(23);
-        tv.getFrame().removeKeyListener(Tetris.getInstance());
+
         System.out.println("2");
         tv.getFrame().remove(GamePanel.getInstance());
+        tv.getFrame().removeKeyListener(Tetris.getInstance());
         System.out.println("1");
 
     }

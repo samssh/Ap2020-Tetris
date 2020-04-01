@@ -2,6 +2,7 @@ package view;
 
 import controller.GameLoop;
 import hibernate.Connector;
+import lombok.Getter;
 import model.Board;
 import model.Player;
 import model.ScoreBord;
@@ -11,6 +12,7 @@ import java.awt.*;
 
 public class GamePanel extends JPanel {
     private static GamePanel gamePanel=new GamePanel();
+    @Getter
     private JButton exit, back, back1;
 
     public static GamePanel getInstance() {
