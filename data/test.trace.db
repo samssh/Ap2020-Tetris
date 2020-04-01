@@ -1,0 +1,126 @@
+2020-03-31 23:40:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "TILESID BINARY(255)": "X'aced0005757200025b4a782004b512b1759302000078700000001effffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff... (267)"; SQL statement:
+insert into Board_tilesId (Board_id, tilesId_ORDER, tilesId) values (?, ?, ?) [22001-191]
+2020-03-31 23:46:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "TILESID BINARY(255)": "X'aced0005757200025b4a782004b512b1759302000078700000001effffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff... (267)"; SQL statement:
+insert into Board_tilesId (Board_id, tilesId_ORDER, tilesId) values (?, ?, ?) [22001-191]
+2020-03-31 23:47:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "TILESID BINARY(255)": "X'aced0005757200025b4a782004b512b1759302000078700000001effffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff... (267)"; SQL statement:
+insert into Board_tilesId (Board_id, tilesId_ORDER, tilesId) values (?, ?, ?) [22001-191]
+2020-03-31 23:54:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "TILESID BINARY(255)": "X'aced0005757200025b4a782004b512b1759302000078700000001effffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff... (267)"; SQL statement:
+insert into Board_tilesId (Board_id, tilesId_ORDER, tilesId) values (?, ?, ?) [22001-191]
+2020-04-01 00:02:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "TILESID BINARY(255)": "X'aced0005757200025b4a782004b512b1759302000078700000001effffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff... (267)"; SQL statement:
+insert into Board_tilesId (Board_id, tilesId_ORDER, tilesId) values (?, ?, ?) [22001-191]
+2020-04-01 00:06:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "TILESID BINARY(255)": "X'aced0005757200025b4a782004b512b1759302000078700000001effffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff... (267)"; SQL statement:
+insert into Board_tilesId (Board_id, tilesId_ORDER, tilesId) values (?, ?, ?) [22001-191]
+2020-04-01 00:07:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "TILESID BINARY(255)": "X'aced0005757200025b4a782004b512b1759302000078700000001effffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff... (267)"; SQL statement:
+insert into Board_tilesId (Board_id, tilesId_ORDER, tilesId) values (?, ?, ?) [22001-191]
+2020-04-01 00:08:20 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "TILESID BINARY(255)": "X'aced0005757200025b4a782004b512b1759302000078700000001effffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff... (267)"; SQL statement:
+insert into Board_tilesId (Board_id, tilesId_ORDER, tilesId) values (?, ?, ?) [22001-191]
+2020-04-01 00:09:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "TILESID BINARY(255)": "X'aced0005757200025b4a782004b512b1759302000078700000001effffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff... (267)"; SQL statement:
+insert into Board_tilesId (Board_id, tilesId_ORDER, tilesId) values (?, ?, ?) [22001-191]
+2020-04-01 00:11:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "TILESID BINARY(255)": "X'aced0005757200025b4a782004b512b1759302000078700000001effffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff... (267)"; SQL statement:
+insert into Board_tilesId (Board_id, tilesId_ORDER, tilesId) values (?, ?, ?) [22001-191]
+2020-04-01 00:14:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "TILESID BINARY(255)": "X'aced0005757200025b4a782004b512b1759302000078700000001effffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff... (267)"; SQL statement:
+insert into Board_tilesId (Board_id, tilesId_ORDER, tilesId) values (?, ?, ?) [22001-191]
+2020-04-01 00:15:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "TILESID BINARY(255)": "X'aced0005757200025b4a782004b512b1759302000078700000001effffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff... (267)"; SQL statement:
+insert into Board_tilesId (Board_id, tilesId_ORDER, tilesId) values (?, ?, ?) [22001-191]
+2020-04-01 00:28:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "TILESID BINARY(255)": "X'aced0005757200025b4a782004b512b1759302000078700000001effffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff... (267)"; SQL statement:
+insert into Board_tilesId (Board_id, tilesId_ORDER, tilesId) values (?, ?, ?) [22001-191]
+2020-04-01 00:32:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "TILESID BINARY(255)": "X'aced0005757200025b4a782004b512b1759302000078700000001effffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff... (267)"; SQL statement:
+insert into Board_tilesId (Board_id, tilesId_ORDER, tilesId) values (?, ?, ?) [22001-191]
+2020-04-01 00:34:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "TILESID BINARY(255)": "X'aced0005757200025b4a782004b512b1759302000078700000001effffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff... (267)"; SQL statement:
+insert into Board_tilesId (Board_id, tilesId_ORDER, tilesId) values (?, ?, ?) [22001-191]
+2020-04-01 00:37:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "TILESID BINARY(255)": "X'aced0005757200025b4a782004b512b1759302000078700000001effffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff... (267)"; SQL statement:
+insert into Board_tilesId (Board_id, tilesId_ORDER, tilesId) values (?, ?, ?) [22001-191]
+2020-04-01 01:14:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "TILESID BINARY(255)": "X'aced0005757200025b4a782004b512b1759302000078700000001effffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff... (267)"; SQL statement:
+insert into Board_tilesId (Board_id, tilesId_ORDER, tilesId) values (?, ?, ?) [22001-191]
+2020-04-01 09:38:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "TILESID BINARY(255)": "X'aced0005757200025b4a782004b512b1759302000078700000001effffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff... (267)"; SQL statement:
+insert into Board_tilesId (Board_id, tilesId_ORDER, tilesId) values (?, ?, ?) [22001-191]
+2020-04-01 09:39:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "TILESID BINARY(255)": "X'aced0005757200025b4a782004b512b1759302000078700000001effffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff... (267)"; SQL statement:
+insert into Board_tilesId (Board_id, tilesId_ORDER, tilesId) values (?, ?, ?) [22001-191]
+2020-04-01 09:53:04 database: flush
+org.h2.message.DbException: General error: "java.lang.IllegalStateException: The file is locked: nio:/home/sam/Documents/ap 98 2/hw/HW2/data/test.mv.db [1.4.191/7]" [50000-191]
+	at org.h2.message.DbException.get(DbException.java:168)
+	at org.h2.message.DbException.convert(DbException.java:295)
+	at org.h2.mvstore.db.MVTableEngine$1.uncaughtException(MVTableEngine.java:94)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:373)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:356)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2888)
+	at org.h2.mvstore.db.MVTableEngine$Store.open(MVTableEngine.java:154)
+	at org.h2.mvstore.db.MVTableEngine.init(MVTableEngine.java:99)
+	at org.h2.engine.Database.getPageStore(Database.java:2460)
+	at org.h2.engine.Database.open(Database.java:692)
+	at org.h2.engine.Database.openDatabase(Database.java:270)
+	at org.h2.engine.Database.<init>(Database.java:264)
+	at org.h2.engine.Engine.openSession(Engine.java:65)
+	at org.h2.engine.Engine.openSession(Engine.java:175)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:153)
+	at org.h2.engine.Engine.createSession(Engine.java:136)
+	at org.h2.engine.Engine.createSession(Engine.java:28)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:349)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:107)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:91)
+	at org.h2.Driver.connect(Driver.java:72)
+	at org.hibernate.engine.jdbc.connections.internal.DriverConnectionCreator.makeConnection(DriverConnectionCreator.java:38)
+	at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.createConnection(BasicConnectionCreator.java:58)
+	at org.hibernate.engine.jdbc.connections.internal.PooledConnections.addConnections(PooledConnections.java:106)
+	at org.hibernate.engine.jdbc.connections.internal.PooledConnections.<init>(PooledConnections.java:40)
+	at org.hibernate.engine.jdbc.connections.internal.PooledConnections.<init>(PooledConnections.java:19)
+	at org.hibernate.engine.jdbc.connections.internal.PooledConnections$Builder.build(PooledConnections.java:138)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildPool(DriverManagerConnectionProviderImpl.java:110)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure(DriverManagerConnectionProviderImpl.java:74)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:94)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:217)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:189)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.buildJdbcConnectionAccess(JdbcEnvironmentInitiator.java:145)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:66)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:88)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:234)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:208)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:189)
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:51)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:94)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:217)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:189)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.handleTypes(MetadataBuildingProcess.java:352)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:111)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:83)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:418)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:87)
+	at org.hibernate.boot.MetadataSources.buildMetadata(MetadataSources.java:179)
+	at hibernate.Connector.buildSessionFactory(Connector.java:32)
+	at hibernate.Connector.<init>(Connector.java:19)
+	at hibernate.Connector.<clinit>(Connector.java:18)
+	at k.main(k.java:8)
+Caused by: org.h2.jdbc.JdbcSQLException: General error: "java.lang.IllegalStateException: The file is locked: nio:/home/sam/Documents/ap 98 2/hw/HW2/data/test.mv.db [1.4.191/7]" [50000-191]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	... 53 more
+Caused by: java.lang.IllegalStateException: The file is locked: nio:/home/sam/Documents/ap 98 2/hw/HW2/data/test.mv.db [1.4.191/7]
+	at org.h2.mvstore.DataUtils.newIllegalStateException(DataUtils.java:773)
+	at org.h2.mvstore.FileStore.open(FileStore.java:172)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:342)
+	... 48 more
+2020-04-01 09:53:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "TILESID BINARY(255)": "X'aced0005757200025b4a782004b512b17593020000787000000064000000000000013500000000000001360000000000000137000000000000013800000000... (827)"; SQL statement:
+insert into Board_tilesId (Board_id, tilesId_ORDER, tilesId) values (?, ?, ?) [22001-191]
+2020-04-01 09:59:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "TILESID BINARY(255)": "X'aced0005757200025b494dba602676eab2a5020000787000000064000000010000000200000003000000040000000500000006000000070000000800000009... (427)"; SQL statement:
+insert into Board_tilesId (Board_id, tilesId_ORDER, tilesId) values (?, ?, ?) [22001-191]
