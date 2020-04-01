@@ -136,6 +136,7 @@ public class NewGameMenu {
             Player.setPlayer(new Player(s, 0, 0));
             Board.setBoard(new Board());
             model.NextPiece.setNextPiece(new NextPiece());
+            MusicPlayer.getInstance().startBackground();
             GameLoop.getInstance().start();
         });
         panel.add(start);

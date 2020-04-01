@@ -120,7 +120,7 @@ public class Tetris extends JPanel implements KeyListener {
                         board.setPiece(p);
                         int t = board.endTurn();
                         player.setScore(t * 10 + player.getScore());
-                        player.setScore(t * 10 + player.getScore());
+                        if (t > 0) MusicPlayer.getInstance().play(MusicPlayer.row);
                     }
                 }
                 break;

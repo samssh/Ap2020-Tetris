@@ -37,13 +37,15 @@ public class ScoreBord implements SaveAble {
         return scoreBord;
     }
 
-    public void addRecord(Record record) {
+    public boolean addRecord(Record record) {
+        boolean ans=false;
+        if (records.size() != 0 && record.compareTo(records.get(0)) < 1) ans = true;
         records.add(record);
         records.sort(Record::compareTo);
         if (records.size() > Constant.recordListSize) {
             records.remove(records.size() - 1);
-            System.out.println(134);
         }
+        return ans;
     }
 
 

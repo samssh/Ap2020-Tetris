@@ -75,7 +75,6 @@ public class Board implements SaveAble {
                 }
             }
             if (flag) {
-                i++;
                 cnt++;
                 for (int j = 0; j < width; j++) {
                     tiles[j][i] = null;
@@ -88,8 +87,8 @@ public class Board implements SaveAble {
                             tiles[j][k] = null;
                         }
                     }
-
                 }
+                i++;
             }
         }
         return cnt;

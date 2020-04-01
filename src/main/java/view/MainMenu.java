@@ -99,6 +99,7 @@ public class MainMenu {
             Images.load();
             Piece.loadP();
             Tv.getInstance().getFrame().remove(panel);
+            MusicPlayer.getInstance().startBackground();
             GameLoop.getInstance().start();
         });
         panel.add(continueGame);

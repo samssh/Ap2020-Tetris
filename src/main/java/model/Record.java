@@ -32,7 +32,7 @@ public class Record implements Comparable<Record>, SaveAble {
 
     @Override
     public int compareTo(Record record) {
-        return Integer.compare(this.score, record.score);
+        return Integer.compare(record.score, this.score);
     }
     @Override
     public void delete() {

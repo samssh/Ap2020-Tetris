@@ -59,6 +59,7 @@ public class GamePanel extends JPanel {
             Tv tv = Tv.getInstance();
             tv.getFrame().remove(GamePanel.getInstance());
             tv.getFrame().removeKeyListener(Tetris.getInstance());
+            MusicPlayer.getInstance().stopBackground();
             GameLoop.getInstance().stop();
             MainMenu.getInstance().start();
         });
@@ -75,6 +76,7 @@ public class GamePanel extends JPanel {
             Tv tv = Tv.getInstance();
             tv.getFrame().remove(GamePanel.getInstance());
             tv.getFrame().removeKeyListener(Tetris.getInstance());
+            MusicPlayer.getInstance().stopBackground();
             GameLoop.getInstance().stop();
             MainMenu.getInstance().start();
         });

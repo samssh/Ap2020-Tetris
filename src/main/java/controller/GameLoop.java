@@ -26,7 +26,6 @@ public class GameLoop extends Loop {
         Board board = Board.getInstance();
         NextPiece nextPiece = NextPiece.getInstance();
         Player player = Player.getInstance();
-//        synchronized (board) {
         if (board.getPiece() == null) {
             if (board.canAddPiece(nextPiece.getNext())) {
                 Piece p = Piece.GetRandom();
@@ -35,23 +34,26 @@ public class GameLoop extends Loop {
                 lastShift = System.currentTimeMillis();
             } else {
                 ScoreBord scoreBord = ScoreBord.getInstance();
-                scoreBord.addRecord(new Record(player.getScore(), player.getName()));
+                if (scoreBord.addRecord(new Record(player.getScore(), player.getName()))) {
+                    MusicPlayer.getInstance().play(MusicPlayer.record);
+                } else {
+                    MusicPlayer.getInstance().play(MusicPlayer.gameOver);
+                }
                 Connector connector = Connector.getConnector();
                 connector.beginTransaction();
+                connector.deleteAll();
                 scoreBord.saveOrUpdate();
                 connector.commit();
-                System.out.println(3);
                 Thread.sleep(500);
                 removeComponent();
-                System.out.println(31);
+                MusicPlayer.getInstance().stopBackground();
                 MainMenu.getInstance().start();
-                System.out.println(4);
                 GameLoop.getInstance().stop();
                 //lose state
             }
         } else {
             long now = System.currentTimeMillis();
-            if (now - lastShift >= 250) {
+            if (now - lastShift >= 1000) {
                 synchronized (board) {
                     Piece p = board.getPiece();
                     board.setPiece(null);
@@ -65,12 +67,12 @@ public class GameLoop extends Loop {
                         board.setPiece(p);
                         int t = board.endTurn();
                         player.setScore(t * 10 + player.getScore());
-                        player.setScore(t * 10 + player.getScore());
+                        System.out.println("we");
+                        if (t > 0) MusicPlayer.getInstance().play(MusicPlayer.row);
                     }
                 }
             }
         }
-//        }
     }
 
     @Override
@@ -83,13 +85,8 @@ public class GameLoop extends Loop {
 
     private void removeComponent() {
         Tv tv = Tv.getInstance();
-        System.out.println(23);
-
-        System.out.println("2");
         tv.getFrame().remove(GamePanel.getInstance());
         tv.getFrame().removeKeyListener(Tetris.getInstance());
-        System.out.println("1");
-
     }
 
     @Override
